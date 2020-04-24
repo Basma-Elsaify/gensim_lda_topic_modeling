@@ -29,10 +29,10 @@ from stemming.porter2 import stem
 
 import emoji
 
-consumer_key = "N6EHubErC6jwd5eDqDBoJ3iW1"
-consumer_secret = "oOmJLOmlaEk7bR6R6KYsFguS2yeRmducUOKIWGZ8wmRuQ70nB0"
-access_key = "598773124-jLVnqszY1MMYDbeD1vjBYeq6rx5O2QxCxtCm3IFM"
-access_secret = "URaUh3VzdJJ6jgLejtny5U4I5uo4wlKGCpDgOwANn0ixZ"
+consumer_key = ""
+consumer_secret = ""
+access_key = ""
+access_secret = ""
 
 def search_tweets():
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
